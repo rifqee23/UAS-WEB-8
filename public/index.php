@@ -8,8 +8,8 @@
   </head>
   <body class="bg-blue-gray-50">
     <div class="flex">
-      <?php include "layout/sidebar.php"; ?>
-      <section class="pt-8 ps-12">
+      <?php include "layout/sidebar.php" ?>
+      <section class="w-full pt-8 ps-12">
         <h1 class="text-2xl font-semibold">Welcome Admin!</h1>
         <div class="grid grid-cols-4 mt-10 mb-20 gap-x-10">
           <div

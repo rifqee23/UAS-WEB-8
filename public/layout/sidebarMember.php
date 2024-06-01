@@ -17,9 +17,9 @@
         class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none bg-blue-gray-50/50 text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
       >
         <button
-        id="dashboard"
+          id="dashboard"
           type="button"
-          class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors bg-blue-500 border-b-0 border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
+          class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
         >
           <div class="grid mr-4 place-items-center">
             <svg
@@ -37,7 +37,7 @@
             </svg>
           </div>
           <p
-            class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-white"
+            class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900"
           >
             Dashboard
           </p>
@@ -77,11 +77,11 @@
             Members
           </p>
           <span class="w-5 ml-4">
-            <img id="toggleIcon" src="asset/icons/up.svg" alt="toggleIcon" />
+            <img id="toggleIcon" src="asset/icons/down.svg" alt="toggleIcon" />
           </span>
         </button>
       </div>
-      <div id="members" class="hidden overflow-hidden">
+      <div id="members" class="overflow-hidden ">
         <div
           class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700"
         >
@@ -90,14 +90,14 @@
           >
             <div
               role="button"
-              class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+              class="flex items-center w-full p-3 leading-tight text-white transition-all bg-blue-500 rounded-lg outline-none ms-9 text-start hover:bg-opacity-80 hover:text-blue-gray-900 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
               id="memberList"
             >
               Member List
             </div>
             <div
               role="button"
-              class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+              class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
             >
               Member Add
             </div>
