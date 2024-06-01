@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const chartConfig = {
       series: [
         {
-          name: "Sales",
+          name: "Member",
           data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
         },
       ],
