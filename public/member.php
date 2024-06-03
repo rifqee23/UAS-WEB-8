@@ -10,7 +10,6 @@
     <div class="flex">
       <?php include "layout/sidebarMember.php" ?>
       <section class="w-full p-12">
-        Anan
         <?php include "layout/tableMember.php" ?>
       </section>
     </div>
