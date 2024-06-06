@@ -97,11 +97,11 @@ mysqli_close($conn);
           </th>
         </tr>
       </thead>
-      <>
+    
         <tr>
           <td class="p-4 border-b border-blue-gray-50">
             <div class="flex items-center gap-3">
-                alt="John Michael" class="relative inline-block h-9 w-9 !rounded-full object-cover object-center" />
+                
               <div class="flex flex-col">
                 <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
                   John Michael
