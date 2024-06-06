@@ -1,3 +1,30 @@
+<?php
+include "database.php";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+  $idMember = $_POST["idMember"]; 
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $phone = $_POST["phone"];
+  $tanggal = $_POST["tanggal"];
+  $gender = $_POST["gender"];
+  $status = $_POST["status"];
+  
+
+  $sql = "UPDATE member SET name='$name', email='$email', phone='$phone', tanggal='$tanggal', gender='$gender', status='$status' WHERE idMember='$idMember'";
+
+  if ($conn->query($sql) === TRUE) {
+      
+  } else {
+      echo "Error updating record: " . $conn->error;
+  }
+}
+
+$conn->close();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
