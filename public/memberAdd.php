@@ -1,3 +1,30 @@
+<?php
+// Sertakan file koneksi database
+include "database.php";
+
+// Memproses data form jika form telah disubmit
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Ambil data dari form
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $tanggal = $_POST['tanggal'];
+  $gender = $_POST['gender'];
+  $status = $_POST['status'];
+
+  // Query untuk menyimpan data ke dalam database
+  $sql = "INSERT INTO member (name, email, phone, tanggal, gender, status) VALUES (?, ?, ?, ?, ?, ?)";
+  $stmt = $conn->prepare($sql);
+  $stmt->bind_param("ssssss", $name, $email, $phone, $tanggal, $gender, $status);
+  $stmt->execute();
+  $stmt->close();
+
+  // Redirect ke halaman lain atau tampilkan pesan sukses
+  header("Location: member.php");
+  exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
