@@ -54,8 +54,6 @@
             </label>
           </div>
 
-        
-
         </div>
         <div class="flex justify-center w-full mt-10">
           <div class="flex justify-end w-full max-w-lg ">
