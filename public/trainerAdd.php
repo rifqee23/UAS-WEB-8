@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body class="bg-blue-gray-50">
     <div class="flex">
-        <?php include "layout/sidebarMemberAdd.php" ?>
+        <?php include "layout/trainer/sidebarTrainerAdd.php" ?>
         <section class="flex justify-center w-full p-12">
             <?php include "layout/trainer/formAdd.php" ?>
         </section>
