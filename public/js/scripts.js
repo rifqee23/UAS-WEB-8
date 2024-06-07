@@ -30,7 +30,7 @@ memberAdd.addEventListener("click", () => {
 })
 
 memberEdit.addEventListener("click", () => {
-    window.location.href = "memberEdit.php";
+    window.location.href = "memberEdit.php?id=1";
 })
 
 const datepicker = flatpickr("#date-picker", {});
