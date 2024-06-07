@@ -2,7 +2,7 @@
 include __DIR__ . '/../database.php';
 
 // Lakukan query untuk mengambil data anggota
-$query = "SELECT * FROM member";
+$query = "SELECT * FROM trainer";
 $result = mysqli_query($conn, $query);
 
 ?>
@@ -13,13 +13,15 @@ $result = mysqli_query($conn, $query);
     <div class="flex items-center justify-between gap-8 mb-8">
       <div>
         <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          Members list
+          Trainer list
         </h5>
         <p class="block mt-1 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
           See information about all members
         </p>
       </div>
       <div class="flex flex-col gap-2 shrink-0 sm:flex-row">
+
+
 
         <a class="flex select-none items-center gap-3 rounded-lg bg-gray-900 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" href="./memberAdd.php" type="button">
 
@@ -59,28 +61,28 @@ $result = mysqli_query($conn, $query);
         <tr>
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
             <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-              Member
+              Name
             </p>
           </th>
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
             <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-              Phone
+              Specialization
             </p>
           </th>
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
             <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-              Date of Birth
+              Sertification
             </p>
           </th>
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
             <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-              Gender
+              Experience
             </p>
           </th>
 
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
             <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
-              Status
+              Contact
             </p>
           </th>
           <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
@@ -99,18 +101,16 @@ $result = mysqli_query($conn, $query);
 
                   <div class="flex flex-col">
                     <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                      <?= $row["name"] ?>
+                      <?= $row["nama"] ?>
                     </p>
-                    <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900 opacity-70">
-                      <?= $row["email"] ?>
-                    </p>
+
                   </div>
                 </div>
               </td>
               <td class="p-4 border-b border-blue-gray-50">
                 <div class="flex flex-col">
                   <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                    <?= $row["phone"] ?>
+                    <?= $row["spesialisasi"] ?>
                   </p>
 
                 </div>
@@ -118,19 +118,19 @@ $result = mysqli_query($conn, $query);
               <td class="p-4 border-b border-blue-gray-50">
                 <div class="w-max">
                   <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                    <?= $row["tanggal"] ?>
+                    <?= $row["sertifikasi"] ?>
                   </p>
                 </div>
               </td>
               <td class="p-4 border-b border-blue-gray-50">
                 <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                  <?= $row["gender"] ?>
+                  <?= $row["pengalaman"] ?>
                 </p>
               </td>
 
               <td class="p-4 border-b border-blue-gray-50">
                 <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                  <?= $row["status"] ?>
+                  <?= $row["kontak"] ?>
                 </p>
               </td>
 

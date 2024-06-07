@@ -57,6 +57,47 @@
         </div>
       </div>
     </div>
+
+    <!-- End Member -->
+    <div class="relative block w-full">
+      <div role="button" class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
+        <button id="btnTrainers" type="button" class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-700 hover:text-blue-gray-900">
+          <div class="grid mr-4 place-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-5 h-5">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M2 12h1" />
+              <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2" />
+              <path d="M6 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z" />
+              <path d="M9 12h6" />
+              <path d="M15 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z" />
+              <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2" />
+              <path d="M22 12h-1" />
+            </svg>
+          </div>
+          <p class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
+            Trainers
+          </p>
+          <span class="w-5 ml-4">
+            <img id="toggleIconTrainer" src="asset/icons/up.svg" alt="toggleIcon" />
+          </span>
+        </button>
+      </div>
+      <div id="trainers" class="hidden overflow-hidden">
+        <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
+          <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
+            <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerList">
+              Member List
+            </div>
+            <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerAdd">
+              Member Add
+            </div>
+            <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerEdit">
+              Member Edit
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
     <hr class="my-2 border-blue-gray-50" />
     <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
       <div class="grid mr-4 place-items-center">

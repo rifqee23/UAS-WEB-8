@@ -16,7 +16,7 @@
     </section>
   </div>
 
-  <script src="js/scripts.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
