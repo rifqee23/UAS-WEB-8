@@ -18,8 +18,10 @@
 
     <div class="relative flex flex-col w-full h-full max-w-4xl p-4 text-gray-700 bg-white shadow-xl rounded-xl bg-clip-border shadow-blue-gray-900/5">
       <div class="">
+        <br>
         <h1 class="text-2xl font-semibold text-center">Trainer information</h1>
-        <div class="flex flex-wrap items-center justify-center h-full gap-3 mt-3">
+        <br>
+        <div class="flex flex-wrap items-center justify-center h-full gap-1 mt-3">
           <?php
           include __DIR__ . '/../../database.php';
           $id = $_GET["id"];
@@ -65,7 +67,7 @@
           <?php endwhile;
           mysqli_close($conn); ?>
         </div>
-        <div class="flex justify-center w-full mt-10">
+        <div class="flex justify-center w-full mt-8">
           <div class="flex justify-end w-full max-w-lg ">
 
             <button type="submit" name="submit" class="w-32 py-2 text-2xl font-semibold text-white bg-green-400 rounded-xl">Update</button>
