@@ -58,7 +58,7 @@
         <div class="flex justify-center w-full mt-10">
           <div class="flex justify-end w-full max-w-lg ">
 
-            <button type="submit" class="w-32 py-2 text-2xl font-semibold text-white bg-green-400 rounded-xl">Add</button>
+            <button type="submit" class="w-32 py-2 text-2xl font-semibold text-white bg-red-400 rounded-xl">Add</button>
           </div>
         </div>
       </div>
