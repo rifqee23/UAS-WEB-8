@@ -11,6 +11,7 @@ const memberEdit = document.getElementById("memberEdit");
 
 const trainerList = document.getElementById("trainerList");
 const trainerAdd = document.getElementById("trainerAdd");
+const trainerEdit = document.getElementById("trainerEdit");
 
 btnMembers.addEventListener("click", () => {
     members.classList.toggle("hidden"); 
@@ -60,6 +61,10 @@ memberAdd.addEventListener("click", () => {
     window.location.href = "memberAdd.php";
 })
 
+trainerEdit.addEventListener("click", () => {
+    window.location.href = "trainerEdit.php?id=1";
+    // console.log("hi");
+})
 trainerAdd.addEventListener("click", () => {
     window.location.href = "trainerAdd.php";
 })
@@ -67,5 +72,5 @@ trainerAdd.addEventListener("click", () => {
 
 
 memberEdit.addEventListener("click", () => {
-    window.location.href = "memberEdit.php";
+    window.location.href = "memberEdit.php?id=1";
 })
