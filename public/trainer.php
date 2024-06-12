@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-gradient-to-br from-cyan-100 to-cyan-800">
     <div class="flex">
-        <h1>hello</h1>
+        
         <?php include "layout/trainer/sidebarTrainer.php" ?>
         <section class="w-full p-12">
             <?php include "layout/trainer/tableTrainer.php" ?>
