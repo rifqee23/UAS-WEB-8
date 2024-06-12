@@ -10,6 +10,7 @@
 
 <body class="bg-blue-gray-50">
     <div class="flex">
+        <h1>hello</h1>
         <?php include "layout/trainer/sidebarTrainer.php" ?>
         <section class="w-full p-12">
             <?php include "layout/trainer/tableTrainer.php" ?>
