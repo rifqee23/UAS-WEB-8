@@ -44,13 +44,13 @@
             <div id="members" class="hidden overflow-hidden">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                     <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
-                        <div role="button" class="flex items-center w-full p-3 leading-tight rounded-lg outline-none -transition-all ms-9 text-start hover:bg-opacity-80 hover:bg-cyan-100  hover:text-blue-gray-900 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberList">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight rounded-lg outline-none -transition-all ms-9 text-start hover:bg-opacity-80 hover:bg-cyan-100 hover:text-blue-gray-900 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberList">
                             Member List
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-opacity-80 hover:bg-cyan-100  hover:text-blue-gray-900 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberAdd">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-opacity-80 hover:bg-cyan-100 hover:text-blue-gray-900 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberAdd">
                             Member Add
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberEdit">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="memberEdit">
                             Member Edit
                         </div>
                     </nav>
@@ -85,13 +85,13 @@
             <div id="trainers" class="overflow-hidden ">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                     <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerList">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerList">
                             Trainer List
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-cyan-100  ms-9 text-start hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerAdd">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-cyan-100 ms-9 text-start hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerAdd">
                             Trainer Add
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight text-white transition-all bg-cyan-900 rounded-lg outline-none ms-9 text-start hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerEdit">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight text-white transition-all rounded-lg outline-none bg-cyan-900 ms-9 text-start hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="trainerEdit">
                             Trainer Edit
                         </div>
                     </nav>
@@ -100,8 +100,8 @@
         </div>
         <!-- End Trainer -->
         <div class="relative block w-full">
-            <div role="button" class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-                <button id="btnTrainers" type="button" class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-700 hover:text-blue-gray-900">
+            <div role="button" class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
+                <button id="btnSchedule" type="button" class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-700 hover:text-blue-gray-900">
                     <div class="grid mr-4 place-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-due">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -116,20 +116,20 @@
                         Schedule
                     </p>
                     <span class="w-5 ml-4">
-                        <img id="toggleIconTrainer" src="asset/icons/up.svg" alt="toggleIcon" />
+                        <img id="toggleIconSchedule" src="asset/icons/up.svg" alt="toggleIcon" />
                     </span>
                 </button>
             </div>
             <div id="schedule" class="hidden overflow-hidden">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                     <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleList">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleList">
                             Schedule List
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleAdd">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleAdd">
                             Schedule Add
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100  hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleEdit">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-cyan-100 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleEdit">
                             Schedule Edit
                         </div>
                     </nav>
