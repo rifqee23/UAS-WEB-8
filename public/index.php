@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-cyan-50">
   <div class="flex">
     <?php include "layout/sidebar.php" ?>
     <section class="w-full pt-8 ps-12">
