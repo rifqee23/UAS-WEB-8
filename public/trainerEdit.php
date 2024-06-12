@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-gradient-to-br from-cyan-100 to-cyan-800">
     <div class="flex">
         <?php include "layout/trainer/sidebarTrainerEdit.php" ?>
         <section class="flex justify-center w-full p-12">
