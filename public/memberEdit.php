@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>MinGym</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-gradient-to-br from-cyan-100 to-cyan-800">
   <div class="flex">
     <?php include "layout/sidebarMemberEdit.php" ?>
     <section class="flex justify-center w-full p-12">
