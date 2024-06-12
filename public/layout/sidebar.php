@@ -102,7 +102,7 @@
 
     <div class="relative block w-full">
       <div role="button" class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-        <button id="btnTrainers" type="button" class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-700 hover:text-blue-gray-900">
+        <button id="btnSchedule" type="button" class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 border-b-blue-gray-100 text-blue-gray-700 hover:text-blue-gray-900">
           <div class="grid mr-4 place-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-due">
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -117,7 +117,7 @@
             Schedule
           </p>
           <span class="w-5 ml-4">
-            <img id="toggleIconTrainer" src="asset/icons/up.svg" alt="toggleIcon" />
+            <img id="toggleIconSchedule" src="asset/icons/up.svg" alt="toggleIcon" />
           </span>
         </button>
       </div>
