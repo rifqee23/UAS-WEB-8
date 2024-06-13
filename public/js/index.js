@@ -19,6 +19,11 @@ const trainerList = document.getElementById("trainerList");
 const trainerAdd = document.getElementById("trainerAdd");
 const trainerEdit = document.getElementById("trainerEdit");
 
+const scheduleList = document.getElementById("scheduleList");
+const scheduleAdd = document.getElementById("scheduleAdd");
+const scheduleEdit = document.getElementById("scheduleEdit");
+
+
 
 
 
@@ -56,6 +61,41 @@ btnTrainers.addEventListener("click", () => {
         members.classList.add("hidden");
         toggleIcon.src = "asset/icons/up.svg";
 
+
+    }
+
+    if(!schedule.classList.contains("hidden")) {
+        schedule.classList.add("hidden");
+        toggleIconSchedule.src = "asset/icons/up.svg";
+
+    }
+});
+
+btnSchedule.addEventListener("click", () => {
+    schedule.classList.toggle("hidden");
+
+    if (schedule.classList.contains("hidden")) {
+        toggleIconSchedule.src = "asset/icons/up.svg";
+    } else {
+        toggleIconSchedule.src = "asset/icons/down.svg";
+    }
+
+    if(!trainers.classList.contains("hidden")) {
+        trainers.classList.add("hidden");
+        toggleIconTrainer.src = "asset/icons/up.svg";
+
+    }
+
+    if(!members.classList.contains("hidden")) {
+        members.classList.add("hidden");
+        toggleIcon.src = "asset/icons/up.svg";
+
+    }
+    
+});
+
+=======
+
     }
 
     if(!schedule.classList.contains("hidden")) {
@@ -90,12 +130,17 @@ btnSchedule.addEventListener("click", () => {
 
 
 
+
 memberList.addEventListener("click", () => {
     window.location.href = "member.php";
 })
 
 trainerList.addEventListener("click", () => {
     window.location.href = "trainer.php";
+})
+
+scheduleList.addEventListener("click", () => {
+    window.location.href = "schedule.php";
 })
 
 dashboard.addEventListener('click', () => {
@@ -106,12 +151,20 @@ memberAdd.addEventListener("click", () => {
     window.location.href = "memberAdd.php";
 })
 
+scheduleAdd.addEventListener("click", () => {
+    window.location.href = "scheduleAdd.php";
+})
+
 trainerEdit.addEventListener("click", () => {
     window.location.href = "trainerEdit.php?id=1";
     // console.log("hi");
 })
 trainerAdd.addEventListener("click", () => {
     window.location.href = "trainerAdd.php";
+})
+
+scheduleEdit.addEventListener("click", () => {
+    window.location.href = "scheduleEdit.php?id=1";
 })
 
 
