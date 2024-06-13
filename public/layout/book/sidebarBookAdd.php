@@ -116,17 +116,17 @@
                         Schedule
                     </p>
                     <span class="w-5 ml-4">
-                        <img id="toggleIconSchedule" src="asset/icons/down.svg" alt="toggleIcon" />
+                        <img id="toggleIconSchedule" src="asset/icons/up.svg" alt="toggleIcon" />
                     </span>
                 </button>
             </div>
-            <div id="schedule" class="overflow-hidden ">
+            <div id="schedule" class="hidden overflow-hidden">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                     <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
                         <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleList">
                             Schedule List
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight text-white transition-all bg-blue-400 rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleAdd">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleAdd">
                             Schedule Add
                         </div>
                         <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="scheduleEdit">
@@ -154,17 +154,17 @@
                         Book
                     </p>
                     <span class="w-5 ml-4">
-                        <img id="toggleIconBook" src="asset/icons/up.svg" alt="toggleIcon" />
+                        <img id="toggleIconBook" src="asset/icons/down.svg" alt="toggleIcon" />
                     </span>
                 </button>
             </div>
-            <div id="book" class="hidden overflow-hidden">
+            <div id="book" class="overflow-hidden ">
                 <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                     <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="bookList">
+                        <div role="button" class="flex w-full p-3 leading-tight transition-all rounded-lg outline-none items-cente ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="bookList">
                             Book List
                         </div>
-                        <div role="button" class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="bookAdd">
+                        <div role="button" class="flex items-center w-full p-3 leading-tight text-white transition-all bg-blue-400 rounded-lg outline-none ms-9 text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900" id="bookAdd">
                             Book Add
                         </div>
 
