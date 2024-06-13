@@ -183,9 +183,9 @@ trainerAdd.addEventListener("click", () => {
     window.location.href = "trainerAdd.php";
 })
 
-scheduleEdit.addEventListener("click", () => {
-    window.location.href = "scheduleEdit.php?id=1";
-})
+// scheduleEdit.addEventListener("click", () => {
+//     window.location.href = "scheduleEdit.php?id=1";
+// })
 
 
 
