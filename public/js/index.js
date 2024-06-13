@@ -19,6 +19,10 @@ const trainerList = document.getElementById("trainerList");
 const trainerAdd = document.getElementById("trainerAdd");
 const trainerEdit = document.getElementById("trainerEdit");
 
+const scheduleList = document.getElementById("scheduleList");
+const scheduleAdd = document.getElementById("scheduleAdd");
+const scheduleEdit = document.getElementById("scheduleEdit");
+
 
 
 
@@ -98,6 +102,10 @@ trainerList.addEventListener("click", () => {
     window.location.href = "trainer.php";
 })
 
+scheduleList.addEventListener("click", () => {
+    window.location.href = "schedule.php";
+})
+
 dashboard.addEventListener('click', () => {
     window.location.href = "index.php";
 })
@@ -106,12 +114,20 @@ memberAdd.addEventListener("click", () => {
     window.location.href = "memberAdd.php";
 })
 
+scheduleAdd.addEventListener("click", () => {
+    window.location.href = "scheduleAdd.php";
+})
+
 trainerEdit.addEventListener("click", () => {
     window.location.href = "trainerEdit.php?id=1";
     // console.log("hi");
 })
 trainerAdd.addEventListener("click", () => {
     window.location.href = "trainerAdd.php";
+})
+
+scheduleEdit.addEventListener("click", () => {
+    window.location.href = "scheduleEdit.php?id=1";
 })
 
 
