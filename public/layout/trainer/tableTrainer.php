@@ -86,7 +86,7 @@ $result = mysqli_query($conn, $query);
             </p>
           </th>
           <th class="p-4 border-y border-cyan-900  bg-cyan-800">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Action
             </p>
           </th>

@@ -1635,6 +1635,11 @@ video {
   background-color: rgb(236 239 241 / var(--tw-bg-opacity));
 }
 
+.focus\:bg-cyan-100:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(178 235 242 / var(--tw-bg-opacity));
+}
+
 .focus\:bg-opacity-80:focus {
   --tw-bg-opacity: 0.8;
 }
@@ -1694,6 +1699,11 @@ video {
 
 .active\:bg-gray-900\/20:active {
   background-color: rgb(33 33 33 / 0.2);
+}
+
+.active\:bg-cyan-100:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(178 235 242 / var(--tw-bg-opacity));
 }
 
 .active\:bg-opacity-80:active {
