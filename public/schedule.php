@@ -18,7 +18,23 @@
 
     <script src="js/index.js"></script>
     <script>
+        var keyword_schedule = document.getElementById("keyword_schedule");
+        var container_schedule = document.getElementById("container_schedule");
 
+        keyword_schedule.addEventListener("keyup", function() {
+            var xhr_schedule = new XMLHttpRequest();
+
+
+            xhr_schedule.onreadystatechange = function() {
+                if (xhr_schedule.readyState == 4 && xhr_schedule.status == 200) {
+                    container_schedule.innerHTML = xhr_schedule.responseText;
+                }
+            }
+
+
+            xhr_schedule.open("GET", "ajax/schedule.php?keyword=" + keyword_schedule.value, true);
+            xhr_schedule.send();
+        })
     </script>
 </body>
 
