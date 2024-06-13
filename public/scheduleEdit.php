@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-gradient-to-br from-cyan-100 to-cyan-800">
     <div class="flex">
         <?php include "layout/schedule/sidebarScheduleEdit.php" ?>
         <section class="flex justify-center w-full p-12">

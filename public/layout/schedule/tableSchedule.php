@@ -8,8 +8,8 @@ $result = mysqli_query($conn, $query);
 ?>
 
 
-<div class="relative flex flex-col w-full h-full text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
-  <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white rounded-none bg-clip-border">
+<div class="relative flex flex-col w-full h-full text-gray-700 bg-cyan-50 shadow-md rounded-xl bg-clip-border">
+  <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-cyan-50 rounded-none bg-clip-border">
     <div class="flex items-center justify-between gap-8 mb-8">
       <div>
         <h5 class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -59,47 +59,47 @@ $result = mysqli_query($conn, $query);
     <table class="w-full mt-4 text-left table-auto min-w-max">
       <thead>
         <tr>
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Class Name
             </p>
           </th>
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Name
             </p>
           </th>
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Specialization
             </p>
           </th>
 
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Contact
             </p>
           </th>
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Date
             </p>
           </th>
 
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Start Time
             </p>
           </th>
 
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Start Time
             </p>
           </th>
 
-          <th class="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-            <p class="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">
+          <th class="p-4 border-y border-blue-gray-100 bg-cyan-900">
+            <p class="block font-sans text-sm antialiased font-normal leading-none text-white">
               Action
             </p>
           </th>

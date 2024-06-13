@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Book</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="bg-blue-gray-50">
+<body class="bg-gradient-to-br from-cyan-100 to-cyan-800">
     <div class="flex">
         <?php include "layout/book/sidebarBook.php" ?>
         <section class="w-full p-12">

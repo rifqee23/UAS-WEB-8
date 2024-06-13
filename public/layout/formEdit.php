@@ -1,4 +1,4 @@
-<div class="relative flex flex-col w-full h-full max-w-4xl p-4 text-gray-700 bg-white shadow-xl rounded-xl bg-clip-border shadow-blue-gray-900/5">
+<div class="relative flex flex-col w-full h-full max-w-4xl p-4 text-gray-700 bg-cyan-50 shadow-xl rounded-xl bg-clip-border shadow-blue-gray-900/5">
   <div class="">
     <h1 class="text-2xl font-semibold text-center">Member information</h1>
     <form action="crud/editMemberProses.php" method="post">
@@ -67,7 +67,7 @@
           <div class="flex justify-center w-full mt-10">
             <div class="flex justify-end w-full max-w-lg ">
 
-              <button class="w-32 py-2 text-2xl font-semibold text-white bg-green-400 rounded-xl" type="submit" name="submit">Update</button>
+              <button class="w-32 py-2 text-2xl font-semibold text-white bg-cyan-900 rounded-xl" type="submit" name="submit">Update</button>
             </div>
 
           </div>
