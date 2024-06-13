@@ -26,6 +26,7 @@ const scheduleEdit = document.getElementById("scheduleEdit");
 
 
 
+
 btnMembers.addEventListener("click", () => {
     members.classList.toggle("hidden"); 
     if (members.classList.contains("hidden")) {
@@ -60,6 +61,7 @@ btnTrainers.addEventListener("click", () => {
         members.classList.add("hidden");
         toggleIcon.src = "asset/icons/up.svg";
 
+
     }
 
     if(!schedule.classList.contains("hidden")) {
@@ -91,6 +93,41 @@ btnSchedule.addEventListener("click", () => {
     }
     
 });
+
+=======
+
+    }
+
+    if(!schedule.classList.contains("hidden")) {
+        schedule.classList.add("hidden");
+        toggleIconSchedule.src = "asset/icons/up.svg";
+
+    }
+});
+
+btnSchedule.addEventListener("click", () => {
+    schedule.classList.toggle("hidden");
+
+    if (schedule.classList.contains("hidden")) {
+        toggleIconSchedule.src = "asset/icons/up.svg";
+    } else {
+        toggleIconSchedule.src = "asset/icons/down.svg";
+    }
+
+    if(!trainers.classList.contains("hidden")) {
+        trainers.classList.add("hidden");
+        toggleIconTrainer.src = "asset/icons/up.svg";
+
+    }
+
+    if(!members.classList.contains("hidden")) {
+        members.classList.add("hidden");
+        toggleIcon.src = "asset/icons/up.svg";
+
+    }
+    
+});
+
 
 
 
